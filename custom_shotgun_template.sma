@@ -80,7 +80,7 @@ new HamHook: gl_HamHook_TraceAttack[4],
 /* ~ [ AMX Mod X ] ~ */
 public plugin_init()
 {
-    register_plugin("Custom Shotgun Template", "3.0", "Cristian505 \ Batcoh: Code Base");
+    register_plugin("Custom Shotgun Template", "1.0", "Cristian505 \ Batcoh: Code Base");
 
     // Fakemeta
     register_forward(FM_UpdateClientData,      "FM_Hook_UpdateClientData_Post",      true);
